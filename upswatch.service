@@ -1,0 +1,15 @@
+# systemd service unit file for upswatch.py installed as /usr/local/bin/upswatch
+[Unit]
+Description=UPS Watchdog
+After=nut-server.service
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/upswatch
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
+
+
