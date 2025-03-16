@@ -19,7 +19,7 @@ usage: upswatch.py [-c|--config <config_file>] [-u|--ups <ups_name>] [-v|--verbo
 
 The configuration file is an INI file with the following sections:
 
-### [ups]
+### [UPS]
 
 - **name**: Name of the UPS
 
